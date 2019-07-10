@@ -1,6 +1,6 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(block){
-  const result = block > 42 ? block-42 : 42-block
+function distanceFromHqInBlocks(block1, block2=42){
+  const result = block1 > block2 ? block1-block2 : block2-block1
   return result
 }
 
