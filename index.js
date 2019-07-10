@@ -11,3 +11,9 @@ function distanceFromHqInFeet(block1, block2){
 function distanceTravelledInFeet(block1, block2){
   return distanceFromHqInBlocks(block1, block2)*264
 }
+
+function calculatesFarePrice(start, destination){
+  if (distanceTravelledInFeet<400){
+    return "That's on me"
+  }
+}
