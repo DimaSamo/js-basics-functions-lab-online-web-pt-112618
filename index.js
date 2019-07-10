@@ -14,6 +14,6 @@ function distanceTravelledInFeet(block1, block2){
 
 function calculatesFarePrice(start, destination){
   if (distanceTravelledInFeet<400){
-    return "That's on me"
+    return 0
   }
 }
